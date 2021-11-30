@@ -1,0 +1,115 @@
+{
+    "questions":
+    {
+        "applicable_law":[
+            {
+            "id":1,
+            "question_text":"which jurisdiction in this classification for",
+            "description":"which jurisdiction in this classification for",
+            "options":["alberta", "manitoba", "ontario"],
+            "answer_type":"dropdown"
+
+        },
+        {
+            "id":2,
+            "question_text":"which jurisdiction in this classification for",
+            "description":"which jurisdiction in this classification for",
+            "options":["alberta", "manitoba", "ontario"],
+            "answer_type":"dropdown"
+            
+        },
+        {
+            "id":3,
+            "question_text":"which jurisdiction in this classification for",
+            "description":"which jurisdiction in this classification for",
+            "options":["alberta", "manitoba", "ontario"],
+            "answer_type":"dropdown"
+            
+        }
+    ]
+},
+
+{
+    "hirer":[
+        {
+        "id":1,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+    },
+    {
+        "id":2,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+        
+    },
+    {
+        "id":3,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+        
+    }
+]
+},
+
+{
+    "performance":[
+        {
+        "id":1,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+    },
+    {
+        "id":2,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+        
+    },
+    {
+        "id":3,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+        
+    }
+]
+},
+{
+    "dissmisial":[
+        {
+        "id":1,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+    },
+    {
+        "id":2,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+        
+    },
+    {
+        "id":3,
+        "question_text":"which jurisdiction in this classification for",
+        "description":"which jurisdiction in this classification for",
+        "options":["alberta", "manitoba", "ontario"],
+        "answer_type":"dropdown"
+        
+    }
+]
+}
+
+}
