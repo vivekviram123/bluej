@@ -1,115 +1,135 @@
-{
-    "questions":
+[
     {
-        "applicable_law":[
-            {
-            "id":1,
-            "question_text":"which jurisdiction in this classification for",
-            "description":"which jurisdiction in this classification for",
-            "options":["alberta", "manitoba", "ontario"],
-            "answer_type":"dropdown"
-
-        },
-        {
-            "id":2,
-            "question_text":"which jurisdiction in this classification for",
-            "description":"which jurisdiction in this classification for",
-            "options":["alberta", "manitoba", "ontario"],
-            "answer_type":"dropdown"
-            
-        },
-        {
-            "id":3,
-            "question_text":"which jurisdiction in this classification for",
-            "description":"which jurisdiction in this classification for",
-            "options":["alberta", "manitoba", "ontario"],
-            "answer_type":"dropdown"
-            
-        }
-    ]
-},
-
-{
-    "hirer":[
-        {
-        "id":1,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
+      "id": 1,
+      "title": "worker",
+      "question_text": "which jurisdiction in this classification for",
+      "options": [
+        "Alberta",
+        "British Columbia",
+        "Monitoba",
+        "New Brunswick",
+        "Nova Scotia",
+        "Ontario"
+      ],
+      "question_type": "dropdown"
     },
     {
-        "id":2,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-        
+      "id": 2,
+      "title": "worker",
+      "question_text": "Was the employment relationship subject to the Canada Labour Code?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
     },
     {
-        "id":3,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-        
+      "id": 3,
+      "title": "worker",
+      "question_text": "Was the worker an employee or dependent contractor of the hirer?",
+      "options": [
+        "Employee",
+        "Dependent Contractor"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 4,
+      "title": "hirer",
+      "question_text": "Which of the following best describes the business or industry of the hire?",
+      "options": [
+        "Professional sink, and technical Services",
+        "None"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 5,
+      "title": "hirer",
+      "question_text": "Are there few job opportunities in the hirer's industry due to a limited number of similar employers (such as an industry monopoly, or due to economic conditions in the industry?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 6,
+      "title": "inducement",
+      "question_text": "Was the worker induced by the hirer?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 7,
+      "title": "inducement",
+      "question_text": "Did the worker relocate solely for the purpose of working for the hirer?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 8,
+      "title": "performance",
+      "question_text": "What was the annual compensation of the worker before tax deductions? ",
+      "options": [
+        ""
+      ],
+      "question_type": "number"
+    },
+    {
+      "id": 9,
+      "title": "worker",
+      "question_text": "Was the worker in a unique and highly specialized position ?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 10,
+      "title": "worker",
+      "question_text": "Was the worker in a unique and highly specialized position ?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 11,
+      "title": "Dismissal",
+      "question_text": "Was the worker actively looking for a new position prior to being informed of his or her termination? ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 12,
+      "title": "Dismissal",
+      "question_text": "Was the worker terminated solely because the hirer was in financial difficulty?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
+    },
+    {
+      "id": 13,
+      "title": "Dismissal",
+      "question_text": "Did the hirer allege that the termination was for cause at the time of termination?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "question_type": "checkbox"
     }
-]
-},
-
-{
-    "performance":[
-        {
-        "id":1,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-    },
-    {
-        "id":2,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-        
-    },
-    {
-        "id":3,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-        
-    }
-]
-},
-{
-    "dissmisial":[
-        {
-        "id":1,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-    },
-    {
-        "id":2,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-        
-    },
-    {
-        "id":3,
-        "question_text":"which jurisdiction in this classification for",
-        "description":"which jurisdiction in this classification for",
-        "options":["alberta", "manitoba", "ontario"],
-        "answer_type":"dropdown"
-        
-    }
-]
-}
-
-}
+  ]

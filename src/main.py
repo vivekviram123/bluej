@@ -18,20 +18,21 @@ def all_questions(db: Session = Depends(get_db)):
     """
     return db.query(Questions).all()
 
-@app.get("/hirer",response_model=List[Questions_pydantic])
-def hirer_questions( title: str, db: Session = Depends(get_db)):
-    print("@@@@@@")
+@app.get("/title",response_model=List[Questions_pydantic])
+def questions_head( questions_title: str, db: Session = Depends(get_db)):
+
     """
+    params:question_title
     Api to get list of Questions.
-    :return: [{id, title, description},]
-    """    
-    return db.query(Questions).where(Questions.title == 'hirer').first()
+    :return: [{id, title, description}]
+    """  
+    return db.query(Questions).where(Questions.title == questions_title).all()
 
 @app.post("/add-questions", response_model=Questions_pydantic)
 def create_questions_view(questions: Questions_pydantic_post, db: Session = Depends(get_db)):
     """
     Api to create a TODO.
-    :param todo: {title, description}
+    :param todo: {"title","question_text","options","question_type"}
     :return: {id, title, description}
     """
     questions_task = Questions(**questions.dict())

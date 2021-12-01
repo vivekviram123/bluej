@@ -2,10 +2,10 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import declarative_base
 from database import Base, engine
 
-# from . import (
-#      Column, String, Boolean, UUID, uuid4, JSONB, ForeignKey, ARRAY,
-#     DateTime, BigInteger, Sequence, event, DDL, UniqueConstraint, Integer
-# )
+from . import (
+   Column, String, Integer, UUID, uuid4,
+    DateTime, Boolean, ARRAY, Sequence
+)
 from datetime import datetime
 # from config.app_config import DEFAULT_USER_IMAGE
 from sqlalchemy.ext.declarative import declarative_base
@@ -18,10 +18,8 @@ class Questions(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     question_text = Column(String, nullable=False)
-    description = Column(String, nullable=True)
-    options = Column(String, nullable=True)
+    options = Column(ARRAY(String))
     question_type = Column(String, nullable=True)
-
 
 
 class Answer(Base):

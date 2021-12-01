@@ -1,11 +1,11 @@
 from pydantic import BaseModel
+from typing import List
 
 
 class Questions_pydantic_post(BaseModel):
     title: str
-    description: str
     question_text: str 
-    options: str
+    options: list
     question_type: str 
 
     class Config:
@@ -16,9 +16,8 @@ class Questions_pydantic_post(BaseModel):
 class Questions_pydantic(BaseModel):
     id: int
     title: str
-    description: str
     question_text: str 
-    options: str
+    options: list
     question_type: str 
 
     class Config:
